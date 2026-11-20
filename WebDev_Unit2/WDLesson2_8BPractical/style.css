@@ -1,2 +1,56 @@
-/* Challenge 2: Use w3SchoolsMockUp.png to help you write the necessary CSS rules.
-   Hint: Remember all the fundamental CSS rules when working with flexboxes */
+.container {
+  display: flex;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.center {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#header {
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 15px;
+}
+
+nav a {
+  background-color: green;
+  color: white;
+  padding: 10px;
+  flex: 1;
+  text-decoration: none;
+}
+
+
+#links {
+  width: 160px;
+  padding: 10px 15px;
+  box-shadow: 2px 0px 5px gray;
+}
+
+
+#links a {
+  color: black;
+  text-decoration: none;
+  padding: 4px 0;
+  font-size: 10pt;
+}
+
+
+#main, #sample {
+  flex: 1;
+  display: flex;
+}
+
+#footer {
+  background-color: green;
+  color: white;
+  padding: 10px;
+}
+
