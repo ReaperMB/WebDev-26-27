@@ -1,0 +1,35 @@
+nav{
+  padding:5px
+}
+nav a{
+  color:black;
+  margin:0 10px 0 10px;
+  display:inline-block;
+  width:20%;
+  text-align:center;
+}
+
+* {
+  font-family: Arial, sans-serif;
+} 
+nav a {
+  text-decoration: none;
+}
+nav a:hover {
+  border-bottom: 2px solid black;
+}
+.banner {
+  background-color: blue;
+  color: white;
+}
+.main {
+  font-size: 18px;
+  color: blue;
+}
+#flex {
+  justify-content: flex;
+}
+.paragraphone {
+  font-size: 35px;
+  font-style:arial;
+}
